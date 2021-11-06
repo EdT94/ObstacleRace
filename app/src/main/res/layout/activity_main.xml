@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road"
+    tools:ignore="ExtraText"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/main_IMG_1lives"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/main_IMG_2lives"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            app:srcCompat="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/main_IMG_3lives"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="110dp"
+            app:srcCompat="@drawable/heart" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="13">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/main_BTN_left"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/left"
+            android:textSize="50sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/main_BTN_right"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/right"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/main_IMG_car"
+            android:layout_width="86dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="430dp"
+            app:srcCompat="@drawable/car" />
+
+        <ImageView
+            android:id="@+id/main_IMG_leftRock"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/rock" />
+
+        <ImageView
+            android:id="@+id/main_IMG_middleRock"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="165dp"
+            app:srcCompat="@drawable/rock" />
+
+        <ImageView
+            android:id="@+id/main_IMG_rightRock"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="310dp"
+            app:srcCompat="@drawable/rock" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
